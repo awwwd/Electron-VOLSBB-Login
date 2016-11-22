@@ -5,32 +5,26 @@
     <meta charset="utf-8">
     <title>VOLSBB Login</title>
     <link rel="stylesheet" href="./css/bootstrap.min.css">
-    <style>
-        .center-block {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-        }
-    </style>
 </head>
 
 <body style="padding-top: 25px">
     <div class="container">
         <form class="form-horizontal">
-            <input type="username" placeholder="Username" class="form-control"><br>
-            <input type="password" placeholder="Password" class="form-control"><br>
+            <input type="username" id="username" placeholder="Username" class="form-control"><br>
+            <input type="password" id="password" placeholder="Password" class="form-control"><br>
             <input type="checkbox" id="remember" value="remember"> Remember me?<br>
             <br>
             <div class="text-center">
-                <input type="button" value="Log in" class="btn btn-success">
-                <input type="button" value="Log out" class="btn btn-danger">
+                <input type="button" onclick="login()" value="Log in" class="btn btn-success">
+                <input type="button" onclick="logout()" value="Log out" class="btn btn-danger">
             </div>
         </form>
         <br>
         <div class="text-center">
-            <p id="msgBoxSuccess" style="color:#007E33">Success!</p>
+            <p id="msgBoxSuccess" style="color:#007E33;display:none;">Success!</p>
+            <p id="msgBoxFailure" style="color:#CC0000;display:none;">Failure!</p>
         </div>
     </div>
+    <script src="./js/process.js"></script>
 </body>
-
 </html>
