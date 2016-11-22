@@ -1,0 +1,25 @@
+{
+  "name": "volsbb-login",
+  "version": "1.0.0",
+  "description": "An application that helps in quick login to volsbb.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amitauddy/Electron-VOLSBB-Login.git"
+  },
+  "keywords": [
+    "volsbb"
+  ],
+  "author": "amitauddy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amitauddy/Electron-VOLSBB-Login/issues"
+  },
+  "homepage": "https://github.com/amitauddy/Electron-VOLSBB-Login#readme",
+  "devDependencies": {
+    "electron": "^1.4.7"
+  }
+}
