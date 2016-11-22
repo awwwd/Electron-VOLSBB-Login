@@ -2,9 +2,9 @@
   "name": "volsbb-login",
   "version": "1.0.0",
   "description": "An application that helps in quick login to volsbb.",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "electron ."
   },
   "repository": {
     "type": "git",
